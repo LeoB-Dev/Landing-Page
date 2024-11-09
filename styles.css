@@ -83,13 +83,6 @@ button {
     font-weight: bold;
 }
 
-/* .second-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 0;
-} */
-
 .cont-2-title {
     display: flex;
     justify-content: center;
@@ -97,21 +90,32 @@ button {
     font-weight: 700;
 }
 
+.container-2-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .boxes, .img-subtext {
     display: flex;
-    justify-content: space-evenly;
     padding-top: 25px;
     border-radius: 3px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .img-subtext {
     text-align: center;
     font-size: x-small;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     min-width: 100px;
+    object-fit: contain;
 }
 
 .money-img1 {
